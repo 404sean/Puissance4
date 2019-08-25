@@ -1,0 +1,158 @@
+.titre {
+	font-family: arial;
+	font-size: 40px;
+	text-align: center;
+	background-color: DarkSlateGrey;
+	display: block;
+	
+	position: relative;
+
+  padding: 10px 50px;
+  border-radius: 10px;
+	
+
+}
+
+
+* {
+	margin: 0;
+
+}
+
+
+.container {
+	width: 80%;
+	height: 800px;
+	background-color: blue;
+	margin: auto;
+	border: black 2px solid;
+	overflow: hidden
+	
+}
+
+.coin {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	border: 1px solid black;
+	background-color: white;
+	display: inline-block;
+	margin: 10px 10px;
+
+}
+
+.RedOrYellow {
+	padding: 10px;
+	
+	font-family: arial;
+	text-align: center;
+	font-size: 20px;
+	display: inline-block;
+	margin-top: 30%;
+	position: absolute;
+}
+
+
+
+
+body {
+
+background-color: grey;
+ }
+
+ .colomn1 {
+ 	height: 800px;
+ 	width: 9%;
+ 	
+ 	position: absolute;
+ 	z-index: 10;
+ }
+ .colomn2 {
+ 	height: 800px;
+ 	width: 9%;
+ 	position: absolute;
+ 	transform: translateX(110%);
+ 	 	z-index: 10;
+
+ }
+  .colomn3 {
+ 	height: 800px;
+ 	width: 9%;
+ 	position: absolute;
+ 	 	transform: translateX(220%); 
+ 	 	 	z-index: 10;
+
+
+ }
+  .colomn4 {
+ 	height: 800px;
+ 	width: 9%;
+ 	position: absolute;
+ 		 	transform: translateX(325%);
+ 		 	  	z-index: 10;
+
+
+ }
+  .colomn5 {
+ 	height: 800px;
+ 	width: 9%;
+ 	position: absolute;
+ 	 		 	transform: translateX(430%);
+ 	 		 	 	z-index: 10;
+
+ }
+  .colomn6 {
+ 	height: 800px;
+ 	width: 9%;
+ 	position: absolute;
+ 	 	 		 	transform: translateX(540%) ;
+ 	 	 		 	 	z-index: 10;
+
+
+ }
+  .colomn7 {
+ 	height: 800px;
+ 	width: 9%;
+ 	position: absolute;
+ 	 	 	 		 	transform: translateX(650%) ;
+ 	 	 	 		 	 	z-index: 10;
+
+
+ }
+  .colomn8 {
+ 	height: 800px;
+ 	width: 9%;
+ 	position: absolute;
+ 	 	 	 	 		 	transform: translateX(760%);
+ 	 	 	 	 		 	 	z-index: 10;
+
+ }
+
+.reset {
+	padding: 10px 50px;
+	background-color: red;
+	border-radius: 5px;
+	display: inline-block;
+	margin-left: 40%;
+
+}
+.reset:hover {
+	background-color: gold;
+	cursor: pointer;
+}
+
+#support1 {
+	background-color: red;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	z-index: 10;
+	margin: 10px 10px;
+	
+	
+	
+
+}
+
+
